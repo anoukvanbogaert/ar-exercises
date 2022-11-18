@@ -10,3 +10,8 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+puts "which is your fav store to go to?"
+@answer = $stdin.gets.chomp
+
+new_store = Store.create(name: @answer)
